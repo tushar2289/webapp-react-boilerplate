@@ -27,7 +27,7 @@
   },
   "husky": {
     "hooks": {
-      "precommit": "yarn precommit"
+      "pre-commit": "yarn precommit"
     }
   },
   "browserslist": {
