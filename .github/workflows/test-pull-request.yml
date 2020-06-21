@@ -6,7 +6,7 @@ name: Test pull request
 # events but only for the master branch
 on:
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -24,14 +24,18 @@ jobs:
         with:
           node-version: 12
 
+      # Install yarn globally
+      - name: Install yarn
+        run: npm install -g yarn
+
       # Install all the npm packages
-      - name: Install npm packages
-        run: npm ci
+      - name: Install yarn packages
+        run: yarn
 
       # Run the test cases
       - name: Run test cases
-        run: npm run test
-      
+        run: yarn test
+
       # Build the app
       - name: Build the app
-        run: npm run build        
+        run: yarn build

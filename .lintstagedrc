@@ -1,6 +1,6 @@
 {
   '**/*.+(js|ts|tsx|css|sass|less|graphql|yml|yaml|scss|vue)': [
-    'eslint --max-warnings=0 --fix',
+    'eslint --fix --max-warnings=0 --no-ignore',
     'prettier --write',
   ],
   '**/*.+(md|json)': 'prettier --write',
