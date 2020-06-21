@@ -1,7 +1,8 @@
 {
-  '**/*.+(!(*test).js|!(*test).ts|!(*test).tsx|js|ts|tsx|css|sass|less|graphql|yml|yaml|scss|vue)': [
+  '**/*.+(js|ts|tsx|css|sass|less|graphql|yml|yaml|scss|vue)': [
     'eslint --max-warnings=0 --fix',
     'prettier --write',
   ],
+  '**/*.+(md|json)': 'prettier --write',
   '**/(*test).ts?(x)': 'react-scripts test --watchAll=false'
 }
