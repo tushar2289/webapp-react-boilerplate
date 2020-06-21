@@ -4,6 +4,33 @@ This is a boilerplate project for creating react web applications. This project 
 
 The project is built is Typescript which enables JavaScript developers to use highly-productive development tools and practices like static checking and code refactoring when developing JavaScript applications.
 
+## Eslint and Prettier
+
+Eslint and Prettier are used for code quality checks and code formatting. The configuration used for eslint is AirBnB.
+
+### With VSCode
+
+Make sure you perform the following steps in VSCode
+
+1. Install the [ESLint package](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+2. Install the [Prettier package](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+3. Now we need to setup some VS Code settings via `Code/File` → `Preferences` → `Settings`. It's easier to enter these settings while editing the `settings.json` file, so click the `{}` icon in the top right corner:
+
+```js
+// IMP: This will make the fomatter run on save
+"editor.formatOnSave": true,
+// tell the ESLint plugin to run on save
+"editor.codeActionsOnSave": {
+  "source.fixAll": true
+},
+// Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
+"prettier.disableLanguages": ["javascript", "javascriptreact","typescript","typescriptreact"],
+```
+
+## Husky and Lint staged
+
+Husky is used for accessing git hooks. The `precommit` hook is used to initiate lint staged commands. You can look at the commands being run in the file `.lintstagedrc`.
+
 ## Available Scripts
 
 In the project directory, you can run:
