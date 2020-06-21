@@ -22,7 +22,13 @@
     "eject": "react-scripts eject",
     "format": "prettier --write src/**/*.ts{,x}",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x}",
-    "lint:fix": "eslint src/**/*.ts{,x} --fix"
+    "lint:fix": "eslint src/**/*.ts{,x} --fix",
+    "precommit": "lint-staged -v"
+  },
+  "husky": {
+    "hooks": {
+      "precommit": "yarn precommit"
+    }
   },
   "browserslist": {
     "production": [
@@ -48,6 +54,8 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "4.0.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
     "prettier": "^2.0.5"
   }
 }

@@ -13,18 +13,12 @@ Eslint and Prettier are used for code quality checks and code formatting. The co
 Make sure you perform the following steps in VSCode
 
 1. Install the [ESLint package](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-2. Now we need to setup some VS Code settings via `Code/File` → `Preferences` → `Settings`. It's easier to enter these settings while editing the `settings.json` file, so click the `{}` icon in the top right corner:
+2. Install the [Prettier package](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+3. Now we need to setup some VS Code settings via `Code/File` → `Preferences` → `Settings`. It's easier to enter these settings while editing the `settings.json` file, so click the `{}` icon in the top right corner:
 
 ```js
-// These are all my auto-save configs
+// IMP: This will make the fomatter run on save
 "editor.formatOnSave": true,
-// turn it off for JS and JSX, we will do this via eslint
-"[javascript]": {
-  "editor.formatOnSave": false
-},
-"[javascriptreact]": {
-  "editor.formatOnSave": false
-},
 // tell the ESLint plugin to run on save
 "editor.codeActionsOnSave": {
   "source.fixAll": true
@@ -32,6 +26,10 @@ Make sure you perform the following steps in VSCode
 // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
 "prettier.disableLanguages": ["javascript", "javascriptreact","typescript","typescriptreact"],
 ```
+
+## Husky and Lint staged
+
+Husky is used for accessing git hooks. The `precommit` hook is used to initiate lint staged commands. You can look at the commands being run in the file `.lintstagedrc`.
 
 ## Available Scripts
 
