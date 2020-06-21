@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a boilerplate project for creating react web applications. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Typescript
+
+The project is built is Typescript which enables JavaScript developers to use highly-productive development tools and practices like static checking and code refactoring when developing JavaScript applications.
 
 ## Available Scripts
 
