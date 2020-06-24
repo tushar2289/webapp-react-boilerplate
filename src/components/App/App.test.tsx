@@ -5,7 +5,7 @@ import App from './App';
 test('renders learn react link', () => {
   const { getByText } = render(<App />);
   const linkElement = getByText(
-    /Hello World with Eslint, Prettier, Husky and Lint Staged/i
+    /Create React App Example with Typescript and Material UI/i
   );
   expect(linkElement).toBeInTheDocument();
 });
