@@ -1,11 +1,17 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, cleanup, fireEvent } from '@testing-library/react';
 import App from './App';
+import { GITHUB_LINK } from '../../constants';
+
+afterEach(cleanup);
 
 test('renders learn react link', () => {
+  const { asFragment } = render(<App />);
+  expect(asFragment()).toMatchSnapshot();
+});
+
+test('open about page', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(
-    /Create React App Example with Typescript and Material UI/i
-  );
-  expect(linkElement).toBeInTheDocument();
+  fireEvent.click(getByText('About'));
+  expect(getByText(GITHUB_LINK)).toBeInTheDocument();
 });
