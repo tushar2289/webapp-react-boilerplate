@@ -31,6 +31,14 @@ Make sure you perform the following steps in VSCode
 
 Husky is used for accessing git hooks. The `precommit` hook is used to initiate lint staged commands. You can look at the commands being run in the file `.lintstagedrc`.
 
+## UI
+
+The user interface is handled by [React Material UI](https://material-ui.com/)
+
+## Routing
+
+Url routing in the app is managed via [react-router-dom](https://www.npmjs.com/package/react-router-dom)
+
 ## Available Scripts
 
 In the project directory, you can run:
