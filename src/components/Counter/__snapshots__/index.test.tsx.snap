@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiPaper-elevation3 MuiPaper-rounded"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-1"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-2"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6"
+        >
+           MobX powered counter
+        </h6>
+      </div>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Decrement
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+      <span
+        class="MuiBox-root MuiBox-root-3"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-h6"
+        >
+          0
+        </span>
+      </span>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Increment
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
