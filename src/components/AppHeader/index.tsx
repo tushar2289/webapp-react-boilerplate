@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     linkButton: {
       textDecoration: 'none',
-      color: theme.palette.secondary.main,
+      color: '#FFF',
     },
   })
 );
@@ -41,12 +41,12 @@ const AppHeader: React.FC = () => {
           Material UI
         </Typography>
         <Box ml={1}>
-          <Button color="secondary">
+          <Button>
             <Link className={classes.linkButton} to="/">
               Home
             </Link>
           </Button>
-          <Button color="secondary">
+          <Button>
             <Link className={classes.linkButton} to="/about">
               About
             </Link>
