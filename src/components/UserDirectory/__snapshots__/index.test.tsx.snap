@@ -1,0 +1,392 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders user directory loading 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root MuiBox-root-2"
+  >
+    <h3>
+      Loading...
+    </h3>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders user directory with 10 users 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root MuiBox-root-4"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-5"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6"
+      >
+        MobX powered user directory using Axios
+      </h6>
+    </div>
+    <div
+      class="MuiPaper-root MuiTableContainer-root MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <table
+        aria-label="customized table"
+        class="MuiTable-root makeStyles-table-3"
+      >
+        <thead
+          class="MuiTableHead-root"
+        >
+          <tr
+            class="MuiTableRow-root MuiTableRow-head"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-head WithStyles(ForwardRef(TableCell))-head-6"
+              scope="col"
+            >
+              Name
+            </th>
+            <th
+              class="MuiTableCell-root MuiTableCell-head WithStyles(ForwardRef(TableCell))-head-6"
+              scope="col"
+            >
+              Username
+            </th>
+            <th
+              class="MuiTableCell-root MuiTableCell-head WithStyles(ForwardRef(TableCell))-head-6"
+              scope="col"
+            >
+              Email
+            </th>
+            <th
+              class="MuiTableCell-root MuiTableCell-head WithStyles(ForwardRef(TableCell))-head-6"
+              scope="col"
+            >
+              Phone
+            </th>
+            <th
+              class="MuiTableCell-root MuiTableCell-head WithStyles(ForwardRef(TableCell))-head-6"
+              scope="col"
+            >
+              Website
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="MuiTableBody-root"
+        >
+          <tr
+            class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-8"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+              role="cell"
+              scope="row"
+            >
+              Leanne Graham
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              Leanne Graham
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              Sincere@april.biz
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              1-770-736-8031 x56442
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              hildegard.org
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-8"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+              role="cell"
+              scope="row"
+            >
+              Ervin Howell
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              Ervin Howell
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              Shanna@melissa.tv
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              010-692-6593 x09125
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              anastasia.net
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-8"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+              role="cell"
+              scope="row"
+            >
+              Clementine Bauch
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              Clementine Bauch
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              Nathan@yesenia.net
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              1-463-123-4447
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              ramiro.info
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-8"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+              role="cell"
+              scope="row"
+            >
+              Patricia Lebsack
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              Patricia Lebsack
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              Julianne.OConner@kory.org
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              493-170-9623 x156
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              kale.biz
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-8"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+              role="cell"
+              scope="row"
+            >
+              Chelsey Dietrich
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              Chelsey Dietrich
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              Lucio_Hettinger@annie.ca
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              (254)954-1289
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              demarco.info
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-8"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+              role="cell"
+              scope="row"
+            >
+              Mrs. Dennis Schulist
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              Mrs. Dennis Schulist
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              Karley_Dach@jasper.info
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              1-477-935-8478 x6430
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              ola.org
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-8"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+              role="cell"
+              scope="row"
+            >
+              Kurtis Weissnat
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              Kurtis Weissnat
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              Telly.Hoeger@billy.biz
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              210.067.6132
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              elvis.io
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-8"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+              role="cell"
+              scope="row"
+            >
+              Nicholas Runolfsdottir V
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              Nicholas Runolfsdottir V
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              Sherwood@rosamond.me
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              586.493.6943 x140
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              jacynthe.com
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-8"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+              role="cell"
+              scope="row"
+            >
+              Glenna Reichert
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              Glenna Reichert
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              Chaim_McDermott@dana.io
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              (775)976-6794 x41206
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              conrad.com
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-8"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+              role="cell"
+              scope="row"
+            >
+              Clementina DuBuque
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              Clementina DuBuque
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              Rey.Padberg@karina.biz
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              024-648-3804
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-7"
+            >
+              ambrose.net
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</DocumentFragment>
+`;

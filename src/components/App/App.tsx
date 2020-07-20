@@ -13,6 +13,7 @@ import AppHeader from '../AppHeader';
 import Home from '../Home';
 import About from '../About';
 import { Provider, rootStore } from '../../models/Root';
+import UserDirectory from '../UserDirectory';
 
 const useStyles = makeStyles(() =>
   createStyles({
@@ -45,6 +46,7 @@ const App: React.FC = () => {
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/about" component={About} />
+              <Route exact path="/user-directory" component={UserDirectory} />
             </Switch>
           </BrowserRouter>
         </div>

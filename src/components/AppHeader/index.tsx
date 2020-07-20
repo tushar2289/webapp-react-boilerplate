@@ -51,6 +51,11 @@ const AppHeader: React.FC = () => {
               About
             </Link>
           </Button>
+          <Button>
+            <Link className={classes.linkButton} to="/user-directory">
+              User directory
+            </Link>
+          </Button>
         </Box>
       </Toolbar>
     </AppBar>

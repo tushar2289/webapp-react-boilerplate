@@ -78,6 +78,25 @@ exports[`renders 1`] = `
             class="MuiTouchRipple-root"
           />
         </button>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            <a
+              class="makeStyles-linkButton-3"
+              href="/user-directory"
+            >
+              User directory
+            </a>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
       </div>
     </div>
   </header>
