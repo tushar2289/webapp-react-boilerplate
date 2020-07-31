@@ -1,7 +1,6 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
 import About from './index';
-import { GITHUB_LINK } from '../../constants';
 
 afterEach(cleanup);
 
@@ -12,5 +11,5 @@ test('renders', () => {
 
 test('renders github link', () => {
   const { getByText } = render(<About />);
-  expect(getByText(GITHUB_LINK)).toBeInTheDocument();
+  expect(getByText('Source code')).toBeInTheDocument();
 });

@@ -10,9 +10,10 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import AppHeader from '../AppHeader';
-import Home from '../Home';
+import Counter from '../Counter';
 import About from '../About';
 import { Provider, rootStore } from '../../models/Root';
+import UserDirectory from '../UserDirectory';
 
 const useStyles = makeStyles(() =>
   createStyles({
@@ -43,8 +44,9 @@ const App: React.FC = () => {
           <BrowserRouter>
             <AppHeader />
             <Switch>
-              <Route exact path="/" component={Home} />
-              <Route exact path="/about" component={About} />
+              <Route exact path="/" component={About} />
+              <Route exact path="/counter" component={Counter} />
+              <Route exact path="/user-directory" component={UserDirectory} />
             </Switch>
           </BrowserRouter>
         </div>
