@@ -18,6 +18,6 @@ test('renders header text', () => {
       <AppHeader />
     </BrowserRouter>
   );
-  const linkElement = getByText(/Material UI/i);
+  const linkElement = getByText(/ReMoTy/i);
   expect(linkElement).toBeInTheDocument();
 });

@@ -35,7 +35,7 @@ exports[`renders 1`] = `
       <h6
         class="MuiTypography-root MuiTypography-h6 MuiTypography-colorInherit"
       >
-        Material UI
+        ReMoTy
       </h6>
       <div
         class="MuiBox-root MuiBox-root-4"
@@ -52,7 +52,7 @@ exports[`renders 1`] = `
               class="makeStyles-linkButton-3"
               href="/"
             >
-              Home
+              About
             </a>
           </span>
           <span
@@ -69,9 +69,9 @@ exports[`renders 1`] = `
           >
             <a
               class="makeStyles-linkButton-3"
-              href="/about"
+              href="/counter"
             >
-              About
+              Counter
             </a>
           </span>
           <span

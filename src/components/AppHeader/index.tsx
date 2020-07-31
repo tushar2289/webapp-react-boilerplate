@@ -38,17 +38,17 @@ const AppHeader: React.FC = () => {
           <MenuIcon />
         </IconButton>
         <Typography variant="h6" color="inherit">
-          Material UI
+          ReMoTy
         </Typography>
         <Box ml={1}>
           <Button>
             <Link className={classes.linkButton} to="/">
-              Home
+              About
             </Link>
           </Button>
           <Button>
-            <Link className={classes.linkButton} to="/about">
-              About
+            <Link className={classes.linkButton} to="/counter">
+              Counter
             </Link>
           </Button>
           <Button>

@@ -1,51 +1,21 @@
 import React from 'react';
-import {
-  withStyles,
-  Theme,
-  createStyles,
-  makeStyles,
-} from '@material-ui/core/styles';
 import { observer } from 'mobx-react-lite';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
 import Box from '@material-ui/core/Box';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
 import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import { SnapshotIn } from 'mobx-state-tree';
 import { useMst } from '../../models/Root';
 import User from '../../models/User';
-
-const StyledTableCell = withStyles((theme: Theme) =>
-  createStyles({
-    head: {
-      backgroundColor: theme.palette.common.black,
-      color: theme.palette.common.white,
-    },
-    body: {
-      fontSize: 14,
-    },
-  })
-)(TableCell);
-
-const StyledTableRow = withStyles((theme: Theme) =>
-  createStyles({
-    root: {
-      '&:nth-of-type(odd)': {
-        backgroundColor: theme.palette.action.hover,
-      },
-    },
-  })
-)(TableRow);
-
-const useStyles = makeStyles({
-  table: {
-    minWidth: 700,
-  },
-});
+import LoadingUserDirectory, {
+  useStyles,
+  StyledTableRow,
+  StyledTableCell,
+} from './loading';
 
 const UserDirectory: React.FC = observer(() => {
   const classes = useStyles();
@@ -57,7 +27,7 @@ const UserDirectory: React.FC = observer(() => {
   if (loading) {
     return (
       <Box p={4}>
-        <h3>Loading...</h3>
+        <LoadingUserDirectory />
       </Box>
     );
   }
